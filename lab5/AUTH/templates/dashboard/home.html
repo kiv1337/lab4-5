@@ -1,0 +1,9 @@
+{% extends 'account/base.html' %}
+
+{% block content %}
+    <div class="text-center">
+        <h2>Главная</h2>
+        <p>Здравствуйте {{ user.first_name }}!</p>
+        <p>Ваш никнейм : {{ user }}</p>
+    </div>
+{% endblock %}
